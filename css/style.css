@@ -1,0 +1,266 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+    height: 50px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 51px;
+    padding: 35px 0 40px 0;
+    background-color: #212121;
+    z-index: 2;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0 70px;
+    justify-content: space-between;
+}
+
+.menu .menu_link {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.menu_item {
+    margin-right: 25px;
+    border-right: 2px dotted black;
+}
+
+header .subheader {
+    position: absolute;
+    top: 67px;
+    height: 84px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+header .logo_img {
+    display: block;
+    margin-top: 16px;
+}
+
+header .logo_official {
+    font-size: 13px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+header .logo_call {
+    margin-top: 19px;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: right;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+header .header_phone {
+    display: block;
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #fff;
+    text-decoration: none;
+    line-height: 12px;
+}
+
+header .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.promo {
+    height: 800px;
+    background: url('../img/main_bg.jpg') center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.promo .promo_subheader {
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 36px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.promo .promo_text {
+    margin-top: 23px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.promo .promo_btn {
+    width: 259px;
+    height: 63px;
+    margin: 118px 347px 0 349px;
+    box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.advantages {
+    min-height: 900px;
+    padding: 70px 0 65px 0;
+}
+
+.advantages .label {
+    width: 112px;
+    height: 24px;
+    margin: 0 auto;
+    padding: 5px 12px;
+    background-color: #000;
+    font-size: 11px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.advantages .tittle {
+    margin-top: 38px;
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 48px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222;
+}
+
+.advantages .advantages_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.advantages .advantages_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.advantages .advantages_descr {
+    margin-left: 40px;
+    max-width: 341px;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 21px;
+    letter-spacing: normal;
+    color: #202020;
+}
+
+.advantages .advantages_descr span {
+    font-size: 17px;
+    font-weight: normal;
+    color: #1eacc7;
+}
+
+.uber_app {
+   min-height: 864px;
+   padding: 48px 0 80px 0;
+   background:url('../img/app_bg.jpg') center center/cover no-repeat; 
+}
+
+.uber_app .label {
+    width: 112px;
+    height: 24px;
+    margin: 0 auto;
+    padding: 5px 15px;
+    background-color: #000;
+    font-size: 11px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.uber_app .tittle {
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 48px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222;
+}
